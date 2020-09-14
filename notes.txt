@@ -1,0 +1,12 @@
+1)Configurar nome e email:
+  git config --global user.name "SEU NOME"
+  git config --global user.email "SEU EMAIL"
+
+2)Criar pasta no GitHub e pegar link que ele disponibiliza (geralmente é no seguinte formato: https://github.com/NOME DO SEU USUÁRIO/NOME DO REPOSITÓRIO.git;
+
+3)Ir até a pasta que está o projeto pelo prompt de comando e digitar os seguintes comandos (um de cada vez):
+  1 -> git init
+  2 -> git add .
+  3 -> git commit -m "ALGUMA MENSAGEM"
+  4 -> git remote add origin LINK DO GITHUB
+  5 -> git push -u origin master
